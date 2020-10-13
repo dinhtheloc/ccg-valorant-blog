@@ -1,0 +1,56 @@
+.navbar-light .navbar-nav .nav-link {
+  text-transform: capitalize;
+}
+
+img.navbar-brand-img {
+  width: 150px;
+}
+
+svg.valorant-text {
+  fill: #fff;
+}
+
+
+.loading-screen {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background: #fff;
+}
+
+.loading-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50vw;
+  transform: translate(-50%, -65%);
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.container img {
+  width: 100%;
+}
