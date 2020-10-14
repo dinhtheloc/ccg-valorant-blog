@@ -60,7 +60,11 @@ const Post = () => {
     articleBySlug.content = articleBySlug.content.replaceAll("/uploads/", "http://localhost:1337/uploads/");
 
     return (
-        <>
+        <>  
+            <Head>
+                <title>{articleBySlug.title}</title>
+                <meta name="description" content="articleBySlug.short_description"/>
+            </Head>
             <Banner image={`${urlImage}${articleBySlug.image.url}`}></Banner>
             {/* <!-- HEADER ================================================== --> */}
             <section className="pt-8 pt-md-11">

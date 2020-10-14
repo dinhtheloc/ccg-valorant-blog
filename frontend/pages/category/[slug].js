@@ -1,6 +1,7 @@
 import { gql, useQuery } from '@apollo/client';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
+import Head from "next/head";
 import { useRouter } from 'next/router';
 import React from "react";
 import Card from '../../components/category/Card';
@@ -64,6 +65,9 @@ const Post = () => {
 
     return (
         <>
+            <Head>
+                <title>{nameCategory} Valorant</title>
+            </Head>
             <nav className="bg-gray-200">
                 <div className="container">
                     <div className="row">

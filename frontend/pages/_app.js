@@ -9,7 +9,7 @@ const App = ({ Component, pageProps, apollo }) => {
   return (
     <ApolloProvider client={apollo}>
       <Head>
-        <title>Strapi blog</title>
+        <title>Trang chủ - Phân tích chia sẻ những điều liên quan đến valorant</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="stylesheet" href="/assets/fonts/Feather/feather.css" />
         <link rel="stylesheet" href="/assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css" />
